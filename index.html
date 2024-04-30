@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Contactos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> 
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <h1>Formulario de Contacto</h1>
+  <form id="contactForm">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+    <label for="email">Correo Electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Enviar">
+    <button type="button" id="limpiarBtn">Limpiar</button> </div>
+  </form>
+  <div id="qrcode"></div> 
+  <script src="script.js"></script> 
+</body>
+</html>

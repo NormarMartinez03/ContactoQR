@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f8f8; /* Color de fondo más suave */
+  background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0); /* Gradiente sutil */
+}
+
+form {
+  background-color: white;
+  padding: 30px; /* Más padding */
+  border-radius: 10px; /* Bordes más redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra más definida */
+  max-width: 400px; /* Ancho máximo para pantallas pequeñas */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333; /* Color de texto más oscuro */
+}
+
+/* Estilos para los campos del formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500; /* Etiquetas más gruesas */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Texto más grande */
+}
+
+input:focus,
+textarea:focus {
+  outline: none; /* Quitar el contorno azul al enfocar */
+  border-color: #007bff; /* Color azul al enfocar */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Sombra azul al enfocar */
+}
+
+/* Estilos para los botones */
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px; /* Espacio entre botones */
+  transition: background-color 0.3s; /* Transición suave de color */
+}
+
+button:hover {
+  opacity: 0.9; /* Opacidad al pasar el mouse */
+}
+
+button#enviarBtn {
+  background-color: #28a745; /* Verde */
+  color: white;
+}
+
+button#limpiarBtn {
+  background-color: #dc3545; /* Rojo */
+  color: white;
+}
+
+/* Estilos para el código QR */
+#qrcode {
+  margin-top: 30px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
